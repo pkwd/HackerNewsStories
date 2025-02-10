@@ -20,7 +20,11 @@ This ASP.NET Core Web API retrieves the first **n** "best stories" from the Hack
 4. Run the application:
    ```bash
    dotnet run
-5. The API will start listening on http://localhost:5000/ by default (or https://localhost:7000 for HTTPS).
+5. The API will start listening on http://localhost:5000/ by default (or https://localhost:7000 for HTTPS). 
+   You can see concrete port in terminal output window:
+      ```bash
+     info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5032
 
 ## Usage
 - Endpoint: GET /api/hackernews/beststories?count={n}
